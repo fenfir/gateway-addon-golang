@@ -1,4 +1,4 @@
-package main
+package lib
 
 type Property struct {
 	Device        *Device           `json:"device"`

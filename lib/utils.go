@@ -1,3 +1,3 @@
-package main
+package lib
 
 type Utils struct{}

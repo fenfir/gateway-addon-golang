@@ -1,4 +1,4 @@
-package main
+package lib
 
 const (
 	// Plugin and REST/websocket API things

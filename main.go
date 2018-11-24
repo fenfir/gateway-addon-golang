@@ -2,10 +2,12 @@ package main
 
 import (
 	"log"
+
+	"github.com/fenfir/gateway-addon-golang/lib"
 )
 
-func ConnectAddon() {
-	addonManager, err := NewAddonManager("golang", true)
+func main() {
+	addonManager, err := lib.NewAddonManager("golang", true)
 	if err != nil {
 		log.Fatal(err)
 	}

@@ -1,4 +1,4 @@
-package main
+package lib
 
 import (
 	"encoding/json"
@@ -289,7 +289,7 @@ func (a *AddonManager) SendRegistrationMessage() {
 		}
 	}`, a.PluginId)
 
-	err := a.ManagerSend("", []byte(registrationMessage))
+	err := a.ManagerSend([]byte(registrationMessage))
 	if err != nil {
 		log.Println(err)
 	}
