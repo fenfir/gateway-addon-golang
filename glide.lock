@@ -1,0 +1,29 @@
+hash: f47daa1235a95fbd80d352cf3b68be15a81f2761be4e4000c264d31d86ff96b7
+updated: 2018-11-22T22:39:59.15983655+01:00
+imports:
+- name: github.com/gorilla/websocket
+  version: 483fb8d7c32fcb4b5636cd293a92e3935932e2f4
+- name: github.com/mattn/go-sqlite3
+  version: 25ecb14adfc7543176f7d85291ec7dba82c6f7e4
+- name: github.com/Microsoft/go-winio
+  version: 97e4973ce50b2ff5f09635a57e2b88a037aae829
+- name: golang.org/x/sys
+  version: 43eea11bc92608addb41b8a406b0407495c106f6
+  subpackages:
+  - windows
+- name: nanomsg.org/go/mangos/v2
+  version: ebdb404b30f143d7ebe81c08ab879b973d695c64
+  subpackages:
+  - errors
+  - internal/core
+  - protocol
+  - protocol/req
+  - transport
+  - transport/all
+  - transport/inproc
+  - transport/ipc
+  - transport/tcp
+  - transport/tlstcp
+  - transport/ws
+  - transport/wss
+testImports: []
